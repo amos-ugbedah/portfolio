@@ -1,4 +1,11 @@
-import { FaGithub, FaLinkedin, FaFacebook, FaXTwitter, FaArrowUp, FaInstagram } from "react-icons/fa6";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaXTwitter,
+  FaArrowUp,
+  FaInstagram,
+} from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 export const Footer = () => {
@@ -12,8 +19,12 @@ export const Footer = () => {
         {/* Name & Rights */}
         <div className="text-center md:text-left">
           <h2 className="text-xl font-bold mb-1">Ugbedah Amos</h2>
-          <p className="text-sm text-gray-400">Frontend Developer & Tech Enthusiast</p>
-          <p className="text-xs text-gray-500 mt-2">© {new Date().getFullYear()} All rights reserved.</p>
+          <p className="text-sm text-gray-400">
+            Frontend Developer & Tech Enthusiast
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            © {new Date().getFullYear()} All rights reserved.
+          </p>
         </div>
 
         {/* Contact Links */}

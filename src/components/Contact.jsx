@@ -8,13 +8,17 @@ export const Contact = () => {
           Get in Touch
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-8">
-          Whether you have a project idea, want to collaborate, or just want to say hi — feel free to reach out!
+          Whether you have a project idea, want to collaborate, or just want to
+          say hi — feel free to reach out!
         </p>
 
         <div className="flex flex-col gap-4 items-center text-gray-700 dark:text-gray-300">
           <div className="flex items-center gap-3">
             <Mail className="w-5 h-5" />
-            <a href="mailto:ugbedahamos@gmail.com" className="hover:text-[#c7ae6a]">
+            <a
+              href="mailto:ugbedahamos@gmail.com"
+              className="hover:text-[#c7ae6a]"
+            >
               ugbedahamos@gmail.com
             </a>
           </div>

@@ -24,7 +24,9 @@ export const Hero = ({ onExploreClick }) => {
         </div>
 
         {/* Name and Tagline */}
-        <h1 className="text-5xl font-bold mb-4 dark:text-white">Hi, I’m Amos</h1>
+        <h1 className="text-5xl font-bold mb-4 dark:text-white">
+          Hi, I’m Amos
+        </h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
           I build amazing web experiences.
         </p>

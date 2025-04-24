@@ -6,7 +6,6 @@ import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
-
 function App() {
   const projectsRef = useRef(null);
 
@@ -29,7 +28,6 @@ function App() {
         </div>
         <Skills />
         <Contact />
-        
       </main>
 
       {/* Footer */}
